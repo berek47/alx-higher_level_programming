@@ -112,7 +112,3 @@ int is_palindrome(listint_t **head)
 
 	return (isp);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-
