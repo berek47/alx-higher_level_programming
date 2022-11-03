@@ -145,20 +145,20 @@
 #         self.assertEqual(type(s1_dictionary), dict)
 #         s2 = Square(1, 1)
 #         s2.update(**s1_dictionary)
-OBOBOBOB#         s2_dictionary = s2.to_dictionary()
-OBOB#         self.assertEqual(len(s1_dictionary), len(s2_dictionary))
+#         s2_dictionary = s2.to_dictionary()
+#         self.assertEqual(len(s1_dictionary), len(s2_dictionary))
 #         self.assertEqual(type(s2_dictionary), dict)
-OBOB#         self.assertFalse(s1 == s2)
-OBOB
-OBOBOB#     # def test_14_1(self):
-OBOBOB#     #     """Test for public method to_dictionary with wrong args."""
+#         self.assertFalse(s1 == s2)
 
-OBOBOBOB#     #     s = "to_dictionary() takes 1 positional argument but 2 were given"
-OBOBOB#     #     with self.assertRaises(TypeError) as x:
-OBOBOB#     #         s1 = Square(10, 2, 1, 9)
-OBOBOB#     #         s1_dictionary = s1.to_dictionary("Hi")
+#     # def test_14_1(self):
+#     #     """Test for public method to_dictionary with wrong args."""
+
+#     #     s = "to_dictionary() takes 1 positional argument but 2 were given"
+#     #     with self.assertRaises(TypeError) as x:
+#     #         s1 = Square(10, 2, 1, 9)
+#     #         s1_dictionary = s1.to_dictionary("Hi")
 #     #     self.assertEqual(s, str(x.exception))
-OBOBOB
-OBOB
+
+
 # if __name__ == '__main__':
 #     unittest.main()
